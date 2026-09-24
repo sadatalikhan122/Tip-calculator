@@ -1,0 +1,17 @@
+print("Calculation of Tip")
+
+print("Add Number of persons that are giving tip")
+
+Number = int(input())
+
+print(f"Number of persons giving tip: {Number}")
+
+totaltip = 0
+
+for x in range(Number):
+    print(f"Add Tip for person {x + 1}:")
+    tip = int(input())
+
+    totaltip += tip
+
+print(f"Total Tip: {totaltip}")
